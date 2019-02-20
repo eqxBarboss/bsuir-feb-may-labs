@@ -1,0 +1,32 @@
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    display: none;
+    position: absolute;
+    right: 0px;
+}
+
+nav ul li{
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+nav ul li:first-child{
+    border-top: 1px solid grey;
+}
+
+nav ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 100%;
+}
+
+.menu-wrapper:hover ul{
+    display: block;
+}
