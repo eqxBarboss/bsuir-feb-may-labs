@@ -149,16 +149,16 @@ a{
     clear: both;
 }
 
-.main-content{
+main{
     width: 100%;
     word-wrap: break-word;
 }
 
-.main-content article{
+main article{
     display: block;
     box-sizing: border-box;
     line-height: 1.9em;
-    padding-top: 0px;
+    padding-top: 0;
     padding-bottom: 3.5em;
 }
 
@@ -172,7 +172,7 @@ a{
     padding-bottom: 1.5em;
 }
 
-.title-link, .main-content article{
+.title-link, main article{
     padding-left: 8%;
     padding-right: 8%;
 }
